@@ -15,4 +15,6 @@ while guess != randomNumber:
         guess_history.append(guess)
 
 print(f"your guess is correctamundo, the number was {randomNumber}")
-print("Guess history: " + str(guess_history))
+print("Guess history: \n")
+for i in guess_history:
+    print(guess_history[i])
